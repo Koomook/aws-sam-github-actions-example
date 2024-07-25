@@ -62,7 +62,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: cleaninput.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.9
       CodeUri: ./lambdas/cleaninput
       Description: Clean Input
       AutoPublishAlias: live
@@ -71,7 +71,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: divide.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.9
       CodeUri: ./lambdas/divide
       Description: Divide
       AutoPublishAlias: live
@@ -80,7 +80,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: multiply.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.9
       CodeUri: ./lambdas/multiply
       Description: Multiply
       AutoPublishAlias: live
@@ -89,7 +89,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: subtract.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.9
       CodeUri: ./lambdas/subtract
       Description: Subtract
       AutoPublishAlias: live
